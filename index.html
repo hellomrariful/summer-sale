@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Sale</title>
+    <!-- Favicon here -->
+    <link rel="shortcut icon" href="./images/congo.png" type="image/x-icon">
+    <!-- Font Style here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome here -->
+    <script src="https://kit.fontawesome.com/5e5897d0e7.js" crossorigin="anonymous"></script>
+    <!-- Tailwind here -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <header>
+        <section class="lg:flex mx-auto bg-[#F9F6E2] items-center lg:pl-24 lg:pr-24 lg:gap-5 pt-12 pl-6 pr-6">
+            <div class="text-center">
+                <p class="lg:text-3xl md:text-3xl text-2xl font-medium">---SALE FEVER---</p>
+                <h1 class="lg:text-6xl md:text-4xl text-3xl font-bold mt-8">Purchase TK 200 or above & get <span
+                        class="text-[#E527B2]">20%
+                        off</span></h1>
+                <div class="lg:mt-12 lg:mb-12 mt-8 mb-8">
+                    <span class="text-2xl font-medium mr-4">Use Promo Code</span>
+                    <button id="copyButton" class="bg-[#E527B2] text-white pl-6 pt-3 pr-6 pb-3 rounded-lg mt-4 cursor-text">SELL200</button>
+                </div>
+            </div>
+            <div class="">
+                <img class="" src="./images/Summer 1.png" alt="">
+            </div>
+        </section>
+    </header>
+    <!-- Header Section End -->
+    <!-- Main Section Start -->
+    <main>
+        <section class="bg-[#F8F8F8] lg:grid lg:grid-cols-2 pl-6 pr-6 lg:pl-16 lg:pr-14">
+            <div class="">
+                <!-- Chef's Tools Section -->
+                <div>
+                    <h1
+                        class="lg:pt-32 md:pt-14 pt-10 text-4xl font-semibold lg:text-start text-center xl:text-start xl:ml-3">
+                        Kitchen Gadgets
+                    </h1>
+
+                    <div class="lg:flex md:flex md:flex-nowrap flex-wrap gap-4 justify-center lg:ml-24 xl:ml-2">
+
+                        <!-- card-01 -->
+                        <div onclick="cartClick(this)"
+                            class="w-full sm:w-1/2 md:w-1/2 xl:w-1/3 2xl:w-1/3 mt-9 pt-1 pb-1 bg-[#FFF] text-center rounded-lg">
+                            <div class="rounded-lg bg-[#1111110D] ml-5 mt-5 mr-5">
+                                <img class="mx-auto pt-8 pb-8 min-w-fit max-w-fit lg:py-10 lg:mr-8 lg:ml-3 md:mb-0 xl:mx-auto"
+                                    src="./images/prod1.png" alt="">
+                            </div>
+
+                            <div class="mt-5">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                <i class="fa-regular fa-star text-[#FFC107]"></i>
+                            </div>
+
+                            <h3 class="text-xl font-medium mt-2 mb-2">Chef's Tools</h3>
+                            <p class="text-[#111111] opacity-50 mb-3">39.00 TK</p>
+                        </div>
+
+                        <!-- card-02 -->
+                        <div onclick="cartClick(this)"
+                            class="w-full sm:w-1/2 md:w-1/2 xl:w-1/3 2xl:w-1/3 mt-9 pt-1 pb-1 bg-[#FFF] text-center rounded-lg">
+                            <div class="rounded-lg bg-[#1111110D] ml-5 mt-5 mr-5">
+                                <img class="mx-auto pt-8 pb-8 min-w-fit max-w-fit lg:py-10 lg:mr-8 lg:-ml-1 md:mb-0 xl:mx-auto"
+                                    src="./images/prod2.png" alt="">
+                            </div>
+
+                            <div class="mt-4">
+                                <i class="fa-regular fa-star text-[#FFC107]">
+                                </i>
+                                <i class="fa-regular fa-star text-[#FFC107]">
+                                </i>
+                                <i class="fa-regular fa-star text-[#FFC107]">
+                                </i>
+                                <i class="fa-regular fa-star text-[#FFC107]">
+                                </i>
+                                <i class="fa-regular fa-star text-[#FFC107]">
+                                </i>
+                            </div>
+
+                            <h3 class="text-xl font-medium mt-2 mb-2">Cooking Gear</h3>
+                            <p class="text-[#111111] opacity-50 mb-4">25.00 TK</p>
+                        </div>
+
+                        <!-- card-03 -->
+                        <div onclick="cartClick(this)"
+                            class="w-full sm:w-1/2 md:w-1/2 xl:w-1/3 2xl:w-1/3 mt-9 pt-1 pb-1 bg-[#FFF] text-center rounded-lg">
+                            <div class="rounded-lg bg-[#1111110D] ml-5 mt-5 mr-5">
+                                <img class="mx-auto pt-8 pb-8 min-w-fit max-w-fit lg:py-10 lg:mr-8 lg:-ml-1 md:mb-0 xl:mx-auto"
+                                    src="./images/prod3.png" alt="">
+                            </div>
+
+                            <div class="mt-6">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-regular fa-star text-[#FFC107]"></i>
+                            </div>
+
+                            <h3 class="text-xl font-medium mt-2 mb-2">Home Cooker</h3>
+                            <p class="text-[#111111] opacity-50 mb-3">49.00 TK</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sportswear Section -->
+                <div>
+                    <h1 class="md:pt-14 pt-10 text-4xl font-semibold lg:text-start text-center xl:text-start xl:ml-3">
+                        Sportswear
+                    </h1>
+
+                    <div class="lg:flex md:flex md:flex-nowrap flex-wrap gap-4 justify-center lg:ml-24 xl:ml-2">
+
+                        <!-- card-01 -->
+                        <div onclick="cartClick(this)"
+                            class="w-full sm:w-1/2 md:w-1/2 xl:w-1/3 2xl:w-1/3 mt-9 pt-1 pb-1 bg-[#FFF] text-center rounded-lg">
+                            <div class="rounded-lg bg-[#1111110D] ml-5 mt-5 mr-5">
+                                <img class="mx-auto pt-8 pb-8 min-w-fit max-w-[150px] lg:py-12 lg:mr-16 lg:-ml-2 md:mb-0 xl:mx-auto"
+                                    src="./images/prod4.png" alt="">
+                            </div>
+
+                            <div class="mt-6">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                <i class="fa-regular fa-star text-[#FFC107]"></i>
+                            </div>
+
+                            <h3 class="text-xl font-medium mt-2 mb-2">Sports Back Cap</h3>
+                            <p class="text-[#111111] opacity-50 mb-3">49.00 TK</p>
+                        </div>
+
+                        <!-- card-02 -->
+                        <div onclick="cartClick(this)"
+                            class="w-full sm:w-1/2 md:w-1/2 xl:w-1/3 2xl:w-1/3 mt-9 pt-1 pb-1 bg-[#FFF] text-center rounded-lg">
+                            <div class="rounded-lg bg-[#1111110D] ml-5 mt-5 mr-5">
+                                <img class="mx-auto pt-8 pb-8 min-w-fit max-w-fit lg:py-10 lg:mr-8 lg:ml-3 md:mb-0 xl:mx-auto"
+                                    src="./images/prod5.png" alt="">
+                            </div>
+
+                            <div class="mt-6">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-regular fa-star text-[#FFC107]"></i>
+                            </div>
+
+                            <h3 class="text-xl font-medium mt-2 mb-2">Full Jersey Set</h3>
+                            <p class="text-[#111111] opacity-50 mb-3">69.00 TK</p>
+                        </div>
+
+                        <!-- card-03 -->
+                        <div onclick="cartClick(this)"
+                            class="w-full sm:w-1/2 md:w-1/2 xl:w-1/3 2xl:w-1/3 mt-9 pt-1 pb-1 bg-[#FFF] text-center rounded-lg">
+                            <div class="rounded-lg bg-[#1111110D] ml-5 mt-5 mr-5">
+                                <img class="mx-auto pt-8 pb-8 min-w-fit max-w-fit lg:py-10 lg:mr-8 lg:ml-0 md:mb-0 xl:mx-auto"
+                                    src="./images/prod6.png" alt="">
+                            </div>
+
+                            <div class="mt-5">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                <i class="fa-regular fa-star text-[#FFC107]"></i>
+                            </div>
+
+                            <h3 class="text-xl font-medium mt-2 mb-2">Sports Footwear</h3>
+                            <p class="text-[#111111] opacity-50 mb-3">159.00 TK</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Furniture Section -->
+                <div class="mb-20">
+                    <h1 class=" md:pt-14 pt-10 text-4xl font-semibold lg:text-start text-center xl:text-start xl:ml-3">
+                        Furniture</h1>
+
+                    <div class="lg:flex md:flex md:flex-nowrap flex-wrap gap-4 justify-center lg:ml-24 xl:ml-2">
+
+                        <!-- card-01 -->
+                        <div onclick="cartClick(this)"
+                            class="w-full sm:w-1/2 md:w-1/2 xl:w-1/3 2xl:w-1/3 mt-9 pt-1 pb-1 bg-[#FFF] text-center rounded-lg">
+                            <div class="rounded-lg bg-[#1111110D] ml-5 mt-5 mr-5">
+                                <img class="mx-auto pt-8 pb-8 min-w-fit max-w-fit lg:py-10 lg:mr-8 lg:ml-0 md:mb-0 xl:mx-auto"
+                                    src="./images/prod7.png" alt="">
+                            </div>
+
+                            <div class="mt-5">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-regular fa-star text-[#FFC107]"></i>
+                            </div>
+
+                            <h3 class="text-xl font-medium mt-2 mb-2">Easy Chair</h3>
+                            <p class="text-[#111111] opacity-50 mb-4">185.00 TK</p>
+                        </div>
+
+                        <!-- card-02 -->
+                        <div onclick="cartClick(this)"
+                            class="w-full sm:w-1/2 md:w-1/2 xl:w-1/3 2xl:w-1/3 mt-9 pt-1 pb-1 bg-[#FFF] text-center rounded-lg">
+                            <div class="rounded-lg bg-[#1111110D] ml-5 mt-5 mr-5">
+                                <img class="mx-auto pt-8 pb-8 min-w-fit max-w-fit lg:py-10 lg:mr-8 lg:ml-3 md:mb-0 xl:mx-auto"
+                                    src="./images/prod8.png" alt="">
+                            </div>
+
+                            <div class="mt-7">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                            </div>
+
+                            <h3 class="text-xl font-medium mt-2 mb-2">Children play</h3>
+                            <p class="text-[#111111] opacity-50 mb-3">299.00 TK</p>
+                        </div>
+
+                        <!-- card-03 -->
+                        <div onclick="cartClick(this)"
+                            class="w-full sm:w-1/2 md:w-1/2 xl:w-1/3 2xl:w-1/3 mt-9 pt-1 pb-1 bg-[#FFF] text-center rounded-lg">
+                            <div class="rounded-lg bg-[#1111110D] ml-5 mt-5 mr-5">
+                                <img class="mx-auto pt-8 pb-8 min-w-fit max-w-fit lg:py-10 lg:mr-8 lg:-ml-3 md:mb-0 xl:mx-auto"
+                                    src="./images/prod9.png" alt="">
+                            </div>
+
+                            <div class="mt-8">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                            </div>
+
+                            <h3 class="text-xl font-medium mt-2 mb-2">Flexible Sofa</h3>
+                            <p class="text-[#111111] opacity-50 mb-3">339.00 TK</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Cart Section -->
+            <div class="lg:ml-14">
+
+                <!-- coupon -->
+                <div
+                    class="bg-[#FFF] rounded-lg p-3 mb-6 mx-6 lg:mt-52 md:mt-16 mt-12 md:text-center text-center lg:ml-24">
+                    <div class="lg:flex lg:flex-col lg:items-center">
+                        <h3 class="text-2xl font-medium">Have coupon?</h3>
+                        <div class="lg:flex lg:items-center mt-4">
+                            <!-- Coupon code input field -->
+                            <input id="couponField"
+                                class="pl-4 py-4 border lg:text-[15px] md:text-xl font-normal mb-2 lg:mb-0" type="text"
+                                placeholder="Enter Coupon Code">
+                            <!-- Apply button -->
+                            <button onclick="applyCoupon(this)" id="applyBtn"
+                                class="px-4 py-4 bg-[#E527B2] text-white lg:rounded-r-md md:rounded-lg rounded-md lg:rounded-none lg:mt-0 text-center flex mt-6 mx-auto text-xl lg:text-[18px] font-semibold disabled:opacity-40"
+                                disabled>Apply</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- purchase section -->
+                <div>
+                    <div class="bg-[#FFF] rounded-lg p-1 mx-5 md:text-center lg:text-start text-center lg:ml-24">
+                        <p id="itemName"
+                            class="lg:text-2xl md:text-2xl text-xl font-medium leading-10 ml-6 lg:mt-2 pt-6">
+                        </p>
+                        <hr class="mt-4 mb-6 mx-6">
+                        <p class="lg:text-2xl md:text-2xl text-xl font-medium mx-6">Total price: <span id="totalPrice"
+                                class="text-[#11111180]">
+                                00.00</span>
+                            <span class="text-[#11111180]"> TK</span>
+                        </p>
+                        <p class="lg:text-2xl md:text-2xl text-xl font-medium my-3 mx-6">Discount: <span
+                                id="discountPrice" class="text-[#11111180]">00.00</span>
+                            <span class="text-[#11111180]">TK</span>
+                        </p>
+                        <p class="lg:text-2xl md:text-2xl text-xl font-medium mx-6">Pay Total: <span id="payTotal"
+                                class="text-[#11111180]">00.00</span>
+                            <span class="text-[#11111180]">TK</span>
+                        </p>
+                        <hr class="my-6 mb-12 mx-6">
+                    </div>
+                    <div class="flex justify-center text-center mt-[-2rem] lg:ml-20">
+                        <button id="purchaseBtn"
+                            class="lg:px-12 xl:px-40 md:px-24 px-8 mb-10 py-4 bg-[#E527B2] text-white rounded-lg text-xl font-semibold mx-6 disabled:opacity-40 "
+                            disabled>Purchase Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal here -->
+        <div id="myModal" class="fixed inset-0 flex items-center justify-center z-50 hidden">
+            <div
+                class="modal-content bg-white rounded-lg shadow-lg text-center relative lg:px-56 md:px-56 px-16 lg:py-28 md:py-28 py-10">
+                <img src="./images/congo.png" alt="Product Image" class="mx-auto mb-10">
+                <h1 class="lg:text-5xl md:text-4xl text-2xl font-bold">Congratulations</h1>
+                <p class="text-[#11111180] mt-4 mb-6 text-xl font-normal">You Successfully Purchase the product</p>
+                <button id="goHomeBtn"
+                    class="bg-[#E527B2] text-white rounded-lg text-xl font-semibold lg:px-11 md:px-11 px-4 py-4">Go Home
+                </button>
+            </div>
+        </div>
+    </main>
+    <!-- Main Section End -->
+    <!-- JS file connect here -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
